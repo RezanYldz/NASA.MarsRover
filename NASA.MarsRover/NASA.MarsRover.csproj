@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NASA.MarsRover.Application\NASA.MarsRover.Application.csproj" />
+    <ProjectReference Include="..\NASA.MarsRover.Core\NASA.MarsRover.Core.csproj" />
+  </ItemGroup>
+
+</Project>
